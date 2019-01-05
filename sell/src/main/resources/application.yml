@@ -1,0 +1,31 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 123456
+    url: jdbc:mysql://192.168.16.101/sell?characterEncoding=utf-8&useSSL=false&serverTimezone=CTT
+  jpa:
+    show-sql: true
+  jackson:
+    default-property-inclusion: non_null
+  redis:
+    host: 192.168.16.101
+    port: 6379
+server:
+  port: 808
+  servlet:
+    context-path: /sell
+
+#logging:
+#  pattern:
+#    console: "%d - %msg%n"
+#  file: C:\javaWorkSpace\selllog\sell.log
+#  level: debug
+#wechat:
+#  mpAppId: wxdbbcf34cd68b0ad5
+#  mpAppSecret: fd709de7d86b4416d6777f1fe54cf122
+#  mchId: 1409146202
+#  mchKey:
+#  keyPath:
+projectUrl:
+  sell: http://jiaokang.nat300.top

@@ -1,0 +1,18 @@
+
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Configuration property name 'projectUrl' is not valid:
+
+    Invalid characters: 'U'
+    Bean: projectUrlConfig
+    Reason: Canonical names should be kebab-case ('-' separated), lowercase alpha-numeric characters and must start with a letter
+
+Action:
+
+Modify 'projectUrl' so that it conforms to the canonical names requirements.
+
